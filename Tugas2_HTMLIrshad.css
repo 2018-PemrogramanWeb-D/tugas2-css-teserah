@@ -4,3 +4,52 @@
     color: burlywood;
     font-family : fantasy;
 }
+.container1{
+    background-color: cadetblue;
+    border-style: dashed;
+    border-width: 5px;
+    border-radius: 30px;
+    margin: 20px;
+}
+.container2{
+    width: 675px;
+    height: 225px;
+    background-color: coral;
+    border-style: dotted;
+    border-width: 5px;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 24px;
+}
+.pembatas{
+    width: 5px;
+    height: 220px;
+    background-color: darkslateblue;
+    float: left;
+}
+.tombol{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: cyan;
+    width: 150px;
+    height: 50px;
+    background-color: darkgreen;
+    cursor: pointer;
+}
+#kiri{
+    float: left;
+}
+#kanan{
+    float: right;
+}
+#boxA{
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+#boxB{
+    width: 300px;
+    height: 200px;
+    float: right;
+}
