@@ -2,35 +2,33 @@
 <!DOCTYPE HTML>
 <head>
 <style>
-  body {
-    background-color : red;
-    color : black;
-  }
   input[type=text]{
     width : 50%;
     padding : 12px 20px;
-    margin : 8px;
     box-sizing : border-box;
   }
-  input[type=text]:focus{
-    background-color : light-blue;
+	input[type=text]:focus{
+    background-color : yellow;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+   body {
+    background-color: lightblue;
   }
   table, td, th {
     border: 1px solid black;
   }
   table {
     border-collapse: collapse;
-    width: 100%;
+    width: 50%;
   }
   th {
     text-align: center;
    h1 {
     color : blue;
-  }
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
   </style>
   </head>
