@@ -21,5 +21,8 @@ text-align: center;
 }
 
 img.center {
-align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
 }
