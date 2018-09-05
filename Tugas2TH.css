@@ -1,0 +1,35 @@
+#Ini tugas 2
+<!DOCTYPE HTML>
+<head>
+<style>
+  input[type=text]{
+    width : 50%;
+    padding : 12px 20px;
+    box-sizing : border-box;
+  }
+	input[type=text]:focus{
+    background-color : yellow;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+   body {
+    background-color: lightblue;
+  }
+  table, td, th {
+    border: 1px solid black;
+  }
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  th {
+    text-align: center;
+   h1 {
+    color : blue;
+  }
+  </style>
+  </head>
+  </html>
