@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Pemrograman Web D</title>
+      <meta charset="UTF-8">
+    </head>
+    <style>
+      .judul{
+        text-align : center;
+        color: burlywood;
+        font-family : fantasy;
+      }
+      .container1{
+        background-color: cadetblue;
+        border-style: dashed;
+        border-width: 5px;
+        border-radius: 30px;
+        margin: 20px;
+      }
+      .container2{
+        width: 675px;
+        height: 225px;
+        background-color: coral;
+        border-style: dotted;
+        border-width: 5px;
+        border-radius: 15px;
+        margin: 20px;
+        padding: 10px;
+        font-size: 24px;
+      }
+      .pembatas{
+        width: 5px;
+        height: 220px;
+        background-color: darkslateblue;
+        float: left;
+      }
+      .tombol{
+        font-family: Helvetica;
+        font-size: 22px;
+        color: cyan;
+        width: 150px;
+        height: 50px;
+        background-color: darkgreen;
+        cursor: pointer;
+      }
+      #kiri{
+        float: left;
+      }
+      #kanan{
+        float: right;
+      }
+      #boxA{
+        width: 300px;
+        height: 200px;
+        float: left;
+      }
+      #boxB{
+        width: 300px;
+        height: 200px;
+        float: right;
+      }
+    </style>
+
+    <body>
+
+      <div class="container1">
+        <h1 class="judul">TUGAS 1 P WEB D</h1>
+      </div>
+
+      <div class="container2" id="kiri">
+        <a href="https://www.w3schools.com/html/"><p style="text-align: center; font-size: 46px;">Link pembelajaran HTML W3Schools</p></a>
+      </div>
+
+      <div class="container2" id="kanan">
+        <p align=center>Mahasiswa Kelas P Web Z</p>
+        <table border=5px align=center>
+          <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>ID</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>andi</td>
+            <td>L 123 VU</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>gunawan</td>
+            <td>L 456 GY</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="container2" id="kiri">
+        <div id="boxA">
+          <P>Ini gambar logo w3schools</P>
+          <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+        </div>
+
+        <div class="pembatas">
+        </div>
+
+        <div id="boxB">
+          <p>komentar Anda tentang logo ini:</p>
+          <textarea rows="5" cols="25">
+          </textarea>
+        </div>
+      </div>
+
+      <div class="container2" id="kanan">
+        <form id="boxA">
+          <b>Form Pendaftaran Follower</b><br>
+          Nama lengkap :<br>
+          <input type="text" name="nama"><br>
+          NIK :<br>
+          <input type="text" name="NIK"><br>
+          Tanggal Lahir :<br>
+          <input type="date" name="tgl"><br>
+        </form>
+
+        <div class="pembatas">
+        </div>
+
+        <br>
+        <form id="boxB">
+          Gender :<br>
+          <input type="radio" name="gender">cowok<br>
+          <input type="radio" name="gender">cewek<br>
+          <input type="radio" name="gender">lainnya<br>
+          <br>
+          <button class="tombol">Submit</button>
+        </form>
+      </div>
+
+    </body>
+
+  </html>
