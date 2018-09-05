@@ -1,0 +1,25 @@
+body {
+background-color:#99ccff;
+font-family:"Arial";
+font-size:15px;
+}
+
+h1 {
+font-family: "Verdana";
+text-align: center;
+color: blue;
+}
+
+h2 {
+font-family: "Verdana";
+color: #ff1a1a;
+text-align: center;
+}
+
+p.center {
+text-align: center;
+}
+
+img.center {
+align-items: center;
+}
