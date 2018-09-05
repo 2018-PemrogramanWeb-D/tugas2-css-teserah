@@ -1,4 +1,6 @@
 #Ini tugas 2
-body{
-    background-color: red;
+.judul{
+    text-align : center;
+    color: burlywood;
+    font-family : fantasy;
 }
